@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zeyad Elsaid — Events, Media, Stories, Experiences</title>
+<meta name="description" content="Zeyad Elsaid: multidisciplinary professional across events, media & TV presenting, PR and marketing. Mediterranean Soul. Global Perspective.">
+<meta property="og:title" content="Zeyad Elsaid — Events. Media. Stories. Experiences.">
+<meta property="og:description" content="Mediterranean Soul. Global Perspective.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/branding/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Manrope:wght@400;500;700&family=Noto+Naskh+Arabic:wght@600&display=swap">
+<style>
+:root{--navy:#101D2C;--med:#315C78;--ocean:#183B50;--ivory:#F3EFE6;--sand:#D9CBB7;--terra:#B96F55;--copper:#A8795B;--gold:#B69A68;
+--bg:#F3EFE6;--fg:#101D2C;--card:#fff;--muted:#4b5a69;--line:rgba(16,29,44,.15);
+--serif:'Fraunces',Georgia,'Times New Roman',serif;--sans:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1520;--fg:#F3EFE6;--card:#142638;--muted:#b9c3cc;--line:rgba(243,239,230,.18)}}
+:root[data-theme="dark"]{--bg:#0b1520;--fg:#F3EFE6;--card:#142638;--muted:#b9c3cc;--line:rgba(243,239,230,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.65 var(--sans)}
+a{color:inherit}h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.08;margin:0}
+.wrap{max-width:1180px;margin:auto;padding:0 24px}
+section{padding:96px 0}
+.label{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--terra);font-weight:700;margin-bottom:14px}
+h2{font-size:clamp(34px,5vw,64px);margin-bottom:24px}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;padding-top:env(safe-area-inset-top,0px);background:rgba(16,29,44,.85);backdrop-filter:blur(8px)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav b{font-family:var(--serif);color:var(--ivory);font-weight:400;font-size:20px;text-decoration:none}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;overflow-x:auto}
+nav li a{color:var(--sand);text-decoration:none;font-size:13px;white-space:nowrap}nav li a:hover{color:#fff}
+@media(max-width:760px){nav ul li:nth-child(n+4){display:none}}
+.hero{min-height:100vh;background:radial-gradient(120% 80% at 80% 0,#315C78 0,#183B50 40%,#101D2C 80%);color:var(--ivory);display:flex;align-items:center;position:relative;overflow:hidden;padding:120px 0 80px}
+.hero svg.waves{position:absolute;bottom:0;left:0;width:200%;height:220px;opacity:.35;animation:drift 22s linear infinite}
+@keyframes drift{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.hero svg.waves{animation:none}}
+.hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center;position:relative}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(56px,10vw,132px);letter-spacing:-.02em}
+.hero h1 em{color:var(--gold)}
+.sub{font-family:var(--serif);font-style:italic;font-size:clamp(20px,2.6vw,30px);color:var(--sand);margin:18px 0}
+.hero p{max-width:520px;color:#d8dfe5}
+.btn{display:inline-block;padding:14px 26px;border-radius:99px;text-decoration:none;font-weight:700;font-size:14px;margin:18px 12px 0 0;border:1px solid var(--gold)}
+.btn.p{background:var(--gold);color:var(--navy)}.btn.s{color:var(--ivory)}
+.avail{display:inline-flex;gap:8px;align-items:center;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--sand);margin-top:28px;display:flex}
+.avail i{width:8px;height:8px;border-radius:50%;background:#6fcf97}
+.portrait{aspect-ratio:3/4;border-radius:220px 220px 12px 12px;border:1px solid var(--gold);background:linear-gradient(160deg,var(--med),var(--navy));overflow:hidden;display:grid;place-items:center;text-align:center;font-size:12px;color:var(--sand);padding:20px}
+.portrait img{width:100%;height:100%;object-fit:cover}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+@media(max-width:860px){.grid2{grid-template-columns:1fr}}
+.pull{background:var(--navy);color:var(--ivory);border-left:4px solid var(--terra);padding:36px;font-family:var(--serif);font-size:clamp(24px,3vw,36px)}
+.pull small{display:block;font-family:var(--sans);font-size:13px;color:var(--sand);margin-top:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.chips span,.filters button{border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:13px;background:transparent;color:var(--fg);font-family:inherit}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.filters button{cursor:pointer}
+.filters button.on{background:var(--terra);border-color:var(--terra);color:#fff}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;transition:transform .3s}
+.card:hover{transform:translateY(-4px)}
+.ph{aspect-ratio:4/3;background:linear-gradient(135deg,var(--ocean),var(--med));display:grid;place-items:center;color:var(--sand);font-size:11px;letter-spacing:.15em;text-transform:uppercase;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover}
+.card div.b{padding:18px}.card h3{font-size:22px;margin-bottom:6px}
+.meta{font-size:13px;color:var(--muted)}
+.dark{background:var(--navy);color:var(--ivory)}.dark .meta{color:var(--sand)}
+.media{background:var(--ocean);color:var(--ivory)}
+.video{aspect-ratio:16/9;background:#000;border:1px solid var(--gold);display:grid;place-items:center;color:var(--sand);text-align:center}
+.video iframe{width:100%;height:100%;border:0}
+.show{background:var(--navy);border:1px solid var(--copper);padding:32px;margin-top:32px}
+.show .ar{font-family:'Noto Naskh Arabic',serif;font-size:48px;color:var(--gold);direction:rtl;display:block;margin-bottom:8px}
+.tl{border-left:1px solid var(--gold);margin-left:8px;padding-left:28px}
+.tl div{margin-bottom:28px;position:relative}.tl div:before{content:"";position:absolute;left:-35px;top:8px;width:13px;height:13px;border-radius:50%;background:var(--terra)}
+.tl b{font-family:var(--serif);font-size:22px;font-weight:400}
+.three{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:32px}
+.three a{border:1px solid var(--gold);padding:24px;text-decoration:none;display:block}.three a:hover{background:rgba(182,154,104,.15)}
+.three b{display:block;font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold)}
+.note{font-size:13px;color:var(--muted);font-style:italic}.dark .note,.media .note{color:var(--sand)}
+footer{background:#08111b;color:var(--sand);text-align:center;padding:28px;font-size:13px}
+.contactlist a{display:block;padding:6px 0}
+audio{width:100%;margin-top:14px}
+.err{color:var(--terra)}
+</style>
+</head>
+<body>
+<nav aria-label="Primary"><div class="wrap"><b>Zeyad Elsaid</b>
+<ul><li><a href="#about">About</a></li><li><a href="#events">Events</a></li><li><a href="#media">Media</a></li><li><a href="#pr">PR &amp; Marketing</a></li><li><a href="#creative">Creative</a></li><li><a href="#borders">Beyond Borders</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="hero" id="top"><svg class="waves" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60 Q150 10 300 60 T600 60 T900 60 T1200 60 V120 H0Z" fill="#B69A68"/></svg>
+<div class="wrap"><div>
+<div class="label" style="color:var(--gold)">Events · Media · PR &amp; Marketing · Creative</div>
+<h1>Zeyad <em>Elsaid</em></h1>
+<div class="sub">Events. Media. Stories. Experiences.</div>
+<p>Creating meaningful experiences, telling compelling stories, and connecting people through events, media, and communication.</p>
+<a class="btn p" href="#events">Explore My Work</a><a class="btn s" href="#contact">Let’s Collaborate</a>
+<div class="avail"><i></i>Open to collaborations · Cairo, Egypt</div></div>
+<div class="portrait" id="portrait">Add your portrait:<br>/assets/profile/zeyad.jpg</div></div></header>
+
+<section id="about"><div class="wrap grid2"><div>
+<div class="label">About</div><h2>Mediterranean Soul. Global Perspective.</h2>
+<p>Zeyad Elsaid is an Egyptian multidisciplinary professional working across event management, public relations, marketing, media and communications. His journey began in 2016 through student activities and the Egyptian Schools Student Union Council.</p>
+<p>Since then he has helped organise and manage conferences, festivals, exhibitions, corporate events, educational programmes and large-scale activations across Egypt, spanning healthcare, banking, tourism, culture, education and entertainment.</p>
+<p>He is currently Senior Events Manager at Almehwar Hospital, is developing his own marketing agency Impactra, and is a Master’s researcher in Public Relations and Advertising at Cairo University.</p></div>
+<div><div class="pull">Born by the Mediterranean. Inspired by the World.<small>Alexandria shapes his outlook, artistic interests and communication style.</small></div>
+<div class="chips" style="margin-top:28px"><span>Event Strategy &amp; Management</span><span>Conferences &amp; Exhibitions</span><span>Healthcare Events</span><span>BTL Activations</span><span>Sponsorship</span><span>VIP &amp; Protocol</span><span>Logistics &amp; Operations</span><span>Training</span></div></div></div></section>
+
+<section id="events" style="background:var(--card)"><div class="wrap">
+<div class="label">Pillar One</div><h2>Events &amp; Experiences</h2>
+<p style="max-width:640px">Hands-on event delivery since 2016. Roles are shown only where documented; more detail is added per project in the data file.</p>
+<div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+<div class="cards" id="cards"></div>
+<p class="note">Also in his experience: Saudi German Hospital event (St. Regis Almasa, Feb 2025), Korea Tourism Organization activations, Future Doctors Experience and healthcare activations at Almehwar Hospital.</p></div></section>
+
+<section class="media" id="media"><div class="wrap">
+<div class="label" style="color:var(--gold)">Pillar Two</div><h2>Beyond the Event. Into the Story.</h2>
+<p style="max-width:640px">Journalism, interviewing and public communication, with professional training as a TV host (United Media Services Academy, 45 hours).</p>
+<div class="video" id="showreel" style="margin-top:28px"><div>Showreel — add a YouTube/Vimeo embed URL in <code>CONFIG.showreel</code></div></div>
+<div class="three"><div style="border:1px solid var(--gold);padding:22px"><b style="font-family:var(--serif);font-size:22px;color:var(--gold);font-weight:400">TV Presenting</b>Presenter reel, hosting, interviews. <span class="note">Placeholders ready.</span></div>
+<div style="border:1px solid var(--gold);padding:22px"><b style="font-family:var(--serif);font-size:22px;color:var(--gold);font-weight:400">Journalism &amp; Interviews</b>Reports, coverage, editorial work. <span class="note">Add items to the data.</span></div></div>
+<div class="show"><span class="ar">لما تلاقي</span><h3 style="font-size:28px">A personal media project — in development</h3>
+<p>A public-affairs explainer format in accessible Egyptian Arabic: news-bulletin storytelling that simplifies international and regional developments, political and social change.</p></div></div></section>
+
+<section id="pr"><div class="wrap grid2"><div>
+<div class="label">Pillar Three</div><h2>PR, Marketing &amp; Communications</h2>
+<p>Public relations, media relations, brand activations, sponsorship acquisition, strategic partnerships (including embassies), institutional communication and healthcare marketing.</p>
+<div class="chips"><span>Public Relations</span><span>Media Relations</span><span>Brand Activations</span><span>Sponsorship</span><span>Partnerships</span><span>Healthcare Marketing</span><span>Cultural Collaboration</span></div></div>
+<div class="pull" style="border-color:var(--gold)">Impactra — 360 Marketing Solutions<small>Zeyad’s developing full-service marketing agency. Agency capabilities are presented separately from completed client work.</small></div></div></section>
+
+<section class="dark" id="creative"><div class="wrap grid2"><div>
+<div class="label" style="color:var(--gold)">Pillar Four</div><h2>The Creative Side.</h2>
+<p>Music and singing, artistic interests and creative inspiration, rooted in Alexandria and Mediterranean culture. Original recordings and behind-the-scenes moments will appear here once supplied.</p>
+<audio controls id="audio" hidden></audio><p class="note" id="audioNote">Add a track path in <code>CONFIG.audio</code> to enable the player.</p></div>
+<div class="ph" style="border:1px solid var(--copper)">Photo / video placeholder</div></div></section>
+
+<section id="borders"><div class="wrap">
+<div class="label">International</div><h2>Beyond Borders.</h2>
+<div class="tl">
+<div><b>2023 · Sochi, Russia</b><br>Represented Egypt at the BRICS Simulation Model</div>
+<div><b>2023 · North Ossetia, Russia</b><br>International election observer, Russian elections</div>
+<div><b>2024 · Sochi, Russia</b><br>Youth delegate at the World Youth Festival (artistic committee)</div>
+<div><b>2024 · Orenburg, Russia</b><br>Represented MENA at Eurasia Global Forum</div></div>
+<p class="note">Representation and participation, not employment.</p></div></section>
+
+<section class="dark"><div class="wrap grid2"><div>
+<div class="label" style="color:var(--gold)">Education &amp; Training</div><h2>Learning, and teaching.</h2>
+<p><b>Cairo University</b> — Master’s Researcher, Faculty of Mass Communication (PR &amp; Advertising), since 2024.<br><b>Suez Canal University</b> — B.Sc. Agriculture, Food Science &amp; Technology, 2021.</p></div>
+<div><p><b>Professional activities</b><br>Events Management instructor, Cairo University · Soft Skills Trainer, Russian Cultural Center · Certified Trainer, Leadership Preparation Center (SCU) · Training of Trainers (2021, 2024).</p></div></div></section>
+
+<section><div class="wrap"><div class="label">Trusted by</div><h2>Brands, Institutions &amp; Experiences.</h2>
+<div class="chips" style="font-size:15px"><span>Banque Misr</span><span>KFH Egypt</span><span>Emirates NBD</span><span>IDB</span><span>Korea Tourism Organization</span><span>Carrefour</span><span>Bibliotheca Alexandrina</span><span>Suez Canal University</span><span>Ismailia Mango Festival</span><span>PUBG Mobile</span></div>
+<p class="note">Names come from the portfolio’s “Trusted by” page; logos can be dropped into /assets/logos. Not every organisation was a direct employer.</p></div></section>
+
+<section class="dark" id="contact"><div class="wrap">
+<div class="label" style="color:var(--gold)">Contact</div><h2>Let’s Create Something That Matters.</h2>
+<p style="max-width:600px">Open to meaningful collaborations, media opportunities, creative projects, event partnerships, and international opportunities.</p>
+<div class="three">
+<a href="mailto:zelsaid750@gmail.com?subject=Media%20%26%20TV%20opportunity"><b>Media &amp; TV</b>Presenting, interviews, shows</a>
+<a href="mailto:zelsaid750@gmail.com?subject=Events%20%26%20Corporate%20project"><b>Events &amp; Corporate</b>Conferences, activations, launches</a>
+<a href="mailto:zelsaid750@gmail.com?subject=PR%20%26%20Marketing%20collaboration"><b>PR &amp; Marketing</b>Campaigns, partnerships</a></div>
+<div class="contactlist" style="margin-top:32px"><a href="mailto:zelsaid750@gmail.com">zelsaid750@gmail.com</a><a href="https://wa.me/201285751124">+20 128 575 1124 (WhatsApp)</a><span>Cairo, Egypt</span>
+<div id="social" style="margin-top:10px"></div></div></div></section>
+<footer>© 2026 Zeyad Elsaid</footer>
+
+<script>
+/* ===== EDIT HERE ===== */
+const CONFIG={portrait:"",showreel:"",audio:"",social:{LinkedIn:"",Instagram:"",YouTube:""}};
+const PROJECTS=[ // img optional: "assets/events/file.jpg"
+{t:"EduHub Expo",c:"Education",y:"2024",l:"Cairo"},
+{t:"Korea Tourism Connection",c:"Tourism",y:"2025",l:"Cairo"},
+{t:"Alexandria Short Film Festival",c:"Culture",y:"2024",l:"Alexandria"},
+{t:"Ismailia Mango Festival",c:"Festivals",y:"2023, 2024, 2025",l:"Ismailia"},
+{t:"KFH Rebranding Opening — Head Office",c:"Banking",y:"2025",l:"Cairo"},
+{t:"KFH Rebranding Opening — Arkan Branch",c:"Banking",y:"2025",l:"Cairo"},
+{t:"KFH Signing Protocols",c:"Banking",y:"2025",l:"Cairo"},
+{t:"Mechanical Ventilation Conference",c:"Healthcare",y:"2022",l:"Cairo"},
+{t:"Ismailia Kids Conference",c:"Healthcare",y:"2022, 2023",l:"Ismailia"},
+{t:"Junior & Cadet Fencing World Championships",c:"Sports",y:"2021",l:"Cairo"},
+{t:"IDB Eftar",c:"Banking",y:"2025",l:"Cairo"},
+{t:"PUBG Mobile Friend Fest",c:"Entertainment",y:"2026",l:"Cairo"},
+{t:"Banque Misr Family Day",c:"Banking",y:"2025",l:"Cairo"},
+{t:"Sketch Your Future",c:"Youth & Education",y:"2017",l:"Alexandria"},
+{t:"Be Qualified",c:"Youth & Education",y:"2018",l:"Alexandria"},
+{t:"New Vision Team — Suez Canal University",c:"Youth & Education",y:"2018–2021",l:"Ismailia"},
+{t:"New Vision Team — Alexandria",c:"Youth & Education",y:"2021–2023",l:"Alexandria"}];
+/* ===================== */
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+function render(f){const box=document.getElementById('cards');
+ box.innerHTML=PROJECTS.filter(p=>f==='All'||p.c===f).map(p=>`<article class="card"><div class="ph">${p.img?`<img loading="lazy" src="${esc(p.img)}" alt="${esc(p.t)}" onerror="this.remove()">`:'Photo'}</div><div class="b"><h3>${esc(p.t)}</h3><div class="meta">${esc(p.y)} · ${esc(p.l)} · ${esc(p.c)}</div></div></article>`).join('');}
+try{const cats=['All',...new Set(PROJECTS.map(p=>p.c))],fb=document.getElementById('filters');
+ cats.forEach((c,i)=>{const b=document.createElement('button');b.textContent=c;if(!i)b.className='on';b.onclick=()=>{fb.querySelectorAll('button').forEach(x=>x.className='');b.className='on';render(c)};fb.appendChild(b)});render('All');
+}catch(e){document.getElementById('cards').innerHTML='<p class="err">Projects failed to load.</p>'}
+if(CONFIG.portrait){document.getElementById('portrait').innerHTML=`<img src="${esc(CONFIG.portrait)}" alt="Portrait of Zeyad Elsaid">`}
+if(CONFIG.showreel){document.getElementById('showreel').innerHTML=`<iframe src="${esc(CONFIG.showreel)}" title="Showreel" allowfullscreen loading="lazy"></iframe>`}
+if(CONFIG.audio){const a=document.getElementById('audio');a.src=CONFIG.audio;a.hidden=false;document.getElementById('audioNote').hidden=true}
+document.getElementById('social').innerHTML=Object.entries(CONFIG.social).map(([k,v])=>v?`<a href="${esc(v)}" rel="noopener" target="_blank">${k}</a>`:`<span class="note" style="margin-right:14px">${k}: add URL</span>`).join('');
+</script>
+</body>
+</html>
